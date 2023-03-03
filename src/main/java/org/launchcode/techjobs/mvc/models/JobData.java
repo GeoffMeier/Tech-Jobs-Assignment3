@@ -212,6 +212,8 @@ public class JobData {
         return allEmployers;
     }
 
+
+
     public static ArrayList<Location> getAllLocations() {
         loadData();
         allLocations.sort(new NameSorter());
